@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-family: BTitr;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: BTitr;
+    src: url(./B\ Titr\ Bold_0.ttf);
+}
+
+@font-face {
+    font-family: BNazanin;
+    src: url(./B-NAZANIN.TTF);
+}
+
+h2 {
+    font-family: BTitr;
+}
+
+p {
+    font-family: BNazanin;
+    font-size: 14pt;
+}
+
+.emailstyle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hitehshoghli {
+    font-size: 15pt;
+}
+
+.telephone {
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(121, 0, 0);
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-family: BTitr;
+    font-size: 12pt;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .resume {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .hitehshoghli,
+    .telephone {
+        font-size: 14pt;
+    }
+
+    p {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .hitehshoghli,
+    .telephone {
+        font-size: 13pt;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    h5 {
+        font-size: 10pt;
+    }
+}
